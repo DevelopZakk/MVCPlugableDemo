@@ -19,12 +19,12 @@
 各自開發各自的，
 但是Release的時候，應該是把 myHost.WebSite1 的一些檔案，Copy 到 myHost 就可以執行了
 
-step 1
+#step 1
 
 myHost 專案下
 需要有一個註冊 Dll 的服務，因此會建立一個pluginAreaBootstrapper的類別來處理這件事情
 
-step2. 
+#step2. 
 
 要讓myHost 啟動時候，去註冊別的Dll，需要呼叫 PluginAreaBootstrapper.Init
 
@@ -32,14 +32,14 @@ step2.
 增加
 [assembly: PreApplicationStartMethod(typeof(PluginAreaBootstrapper), "Init")]  
 
-step3. 
+#step3. 
 
 在myHost.WebSite1PlugIn的專案
 
 增加一個要註冊Area的class 
 重點是這個Class 要繼承 AreaRegistration
 
-step4. 
+#step4. 
 
 complier 整個solution 後
 
