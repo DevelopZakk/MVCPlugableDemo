@@ -1,7 +1,11 @@
 # MVCPlugableDemo
-
+MVCPlugableDemo-1
 主要的目的是
 讓許多網頁系統專案共用某些架構，安全性驗證，Layout...，系統維護上更方便
+
+參考文章：
+https://blog.longle.net/2012/03/29/building-a-composite-mvc3-application-with-pluggable-areas/
+這個網站的範例程式download有點問題，因此就自己試著弄了一個
 
 新的網頁系統要加在原始的網頁上，就像是熱插拔一樣(當然沒有那麼偉大)
 可以把新的網站 Copy 到入口網站的某個目錄，然後就有新的網站
